@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8923455548616428714}
   - component: {fileID: 6476276068615370088}
+  - component: {fileID: 467199334775691640}
   m_Layer: 0
   m_Name: Structure
   m_TagString: Untagged
@@ -40,10 +41,24 @@ Rigidbody:
   m_GameObject: {fileID: 2155115966970569323}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 2
+  m_AngularDrag: 0.5
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
+--- !u!114 &467199334775691640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155115966970569323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7c4bdd65fb5ab4a826716b65aa9d1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _repulsiveForce: 15
+  _maxVelocityMagnitude: 200
