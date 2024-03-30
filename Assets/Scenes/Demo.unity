@@ -1283,10 +1283,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Structure 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6510640605943912389, guid: 5e899f30b2700f94a87d1f42d5763413, type: 3}
-      propertyPath: m_Drag
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8677399008583265799, guid: 5e899f30b2700f94a87d1f42d5763413, type: 3}
       propertyPath: m_RootOrder
       value: 0

@@ -129,10 +129,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Structure 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6476276068615370088, guid: 69e65fbb6106efe4ea472618c9d1f58b, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8923455548616428714, guid: 69e65fbb6106efe4ea472618c9d1f58b, type: 3}
       propertyPath: m_RootOrder
       value: 0
